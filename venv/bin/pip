@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/madhavmanoj/Documents/ML Projects/mlproject/venv/bin/python3.14" "$0" "$@" #'''
+'''exec' "/Users/madhavmanoj/Documents/MACHINE LEARNING/venv/bin/python3.10" "$0" "$@" #'''
 # -*- coding: utf-8 -*-
 import re
 import sys

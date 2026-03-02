@@ -35,11 +35,11 @@ TK_LIBS='   -lpthread -framework CoreFoundation -framework Cocoa -framework Carb
 
 # Top-level directory in which Tk's platform-independent files are
 # installed.
-TK_PREFIX='/Users/madhavmanoj/Documents/ML Projects/mlproject/venv'
+TK_PREFIX='/Users/madhavmanoj/Documents/MACHINE LEARNING/venv'
 
 # Top-level directory in which Tk's platform-specific files (e.g.
 # executables) are installed.
-TK_EXEC_PREFIX='/Users/madhavmanoj/Documents/ML Projects/mlproject/venv'
+TK_EXEC_PREFIX='/Users/madhavmanoj/Documents/MACHINE LEARNING/venv'
 
 # -I switch(es) to use to make all of the X11 include files accessible:
 TK_XINCLUDES=''
@@ -56,11 +56,11 @@ TK_BUILD_LIB_SPEC='-L/private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/ab
 
 # String to pass to linker to pick up the Tk library from its
 # installed directory.
-TK_LIB_SPEC='-L/Users/madhavmanoj/Documents/ML Projects/mlproject/venv/lib -ltk8.6'
+TK_LIB_SPEC='-L/Users/madhavmanoj/Documents/MACHINE LEARNING/venv/lib -ltk8.6'
 
 # String to pass to the compiler so that an extension can
 # find installed Tk headers.
-TK_INCLUDE_SPEC='-I/Users/madhavmanoj/Documents/ML Projects/mlproject/venv/include'
+TK_INCLUDE_SPEC='-I/Users/madhavmanoj/Documents/MACHINE LEARNING/venv/include'
 
 # Location of the top-level source directory from which Tk was built.
 # This is the directory that contains a README file as well as
@@ -87,10 +87,10 @@ TK_BUILD_STUB_LIB_SPEC='-L/private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp
 
 # String to pass to linker to pick up the Tk stub library from its
 # installed directory.
-TK_STUB_LIB_SPEC='-L/Users/madhavmanoj/Documents/ML Projects/mlproject/venv/lib -ltkstub8.6'
+TK_STUB_LIB_SPEC='-L/Users/madhavmanoj/Documents/MACHINE LEARNING/venv/lib -ltkstub8.6'
 
 # Path to the Tk stub library in the build directory.
 TK_BUILD_STUB_LIB_PATH='/private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/work/tk8.6.15/unix/libtkstub8.6.a'
 
 # Path to the Tk stub library in the install directory.
-TK_STUB_LIB_PATH='/Users/madhavmanoj/Documents/ML Projects/mlproject/venv/lib/libtkstub8.6.a'
+TK_STUB_LIB_PATH='/Users/madhavmanoj/Documents/MACHINE LEARNING/venv/lib/libtkstub8.6.a'

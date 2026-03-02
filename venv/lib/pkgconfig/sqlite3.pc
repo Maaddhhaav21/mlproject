@@ -1,13 +1,13 @@
 # Package Information for pkg-config
 
-prefix=/Users/madhavmanoj/Documents/ML Projects/mlproject/venv
+prefix=/Users/madhavmanoj/Documents/MACHINE LEARNING/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: SQLite
 Description: SQL database engine
-Version: 3.51.1
+Version: 3.50.2
 Libs: -L${libdir} -lsqlite3
-Libs.private:  -lz   
+Libs.private:  -lz 
 Cflags: -I${includedir}

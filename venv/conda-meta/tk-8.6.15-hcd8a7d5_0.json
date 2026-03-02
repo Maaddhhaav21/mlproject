@@ -4,8 +4,8 @@
   "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
   "constrains": [],
   "depends": [
-    "zlib >=1.2.13,<2.0.0a0",
-    "__osx >=11.1"
+    "__osx >=11.1",
+    "zlib >=1.2.13,<1.3.0a0"
   ],
   "extracted_package_dir": "/opt/anaconda3/pkgs/tk-8.6.15-hcd8a7d5_0",
   "files": [
@@ -1256,7 +1256,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "a537c6ec79f564f07294b2f8e4403336bf6ff3ffae2354dbaa4f8b996cd57575",
-        "sha256_in_prefix": "66a182c043f0ecc30b25c40ef92931638266e7be512c299430060a0535de3e6b",
+        "sha256_in_prefix": "6e4bdd1ad0e035969fe3fb08812284cd56184078802a158653c846663a3ff4cb",
         "size_in_bytes": 5066
       },
       {
@@ -1300,7 +1300,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "507dfa31db112fc59dcee52d79d2f91fb5f306eedc9c3ce776ed4124bf6602f6",
-        "sha256_in_prefix": "d822c614998c56afb06d44d1d8ab59b4c13c76d12149dfc5e000c81268607153",
+        "sha256_in_prefix": "d6f26aeaa59b351f2c2057495ba39cea743c45f9a672e80e86bd208655cf7dab",
         "size_in_bytes": 1619152
       },
       {
@@ -1330,7 +1330,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "c07ba74c714b9e67e436b052315341a521d0035ec9d24f7838e7db7d9932fbfe",
-        "sha256_in_prefix": "e16b84b2ee18c081fc8ead697c097dfe0128ec72b52f9f2d24fc7e0261376ee2",
+        "sha256_in_prefix": "c97a8b93e6db48d8fad4ecb3936be4de55f2b56dc033c09adc617ffb00f5f92b",
         "size_in_bytes": 1221
       },
       {
@@ -1339,7 +1339,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "ee8a5674bdbd5ed872663979d533ea9ad3f9f8ae56823c7cfbee15205d8430d5",
-        "sha256_in_prefix": "61dbc135393b2abd59c0e67b3384603138e9c367bff9c809689ef90e115713e9",
+        "sha256_in_prefix": "ba763bd80e030dd108055d2165d0be7c6781736dd4a155b1f74490ddaedba89a",
         "size_in_bytes": 1175
       },
       {
@@ -2979,7 +2979,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "210fbde22e3bea36029b1ce2c499a9bff30d6addde324abbe415bb26c5c26e42",
-        "sha256_in_prefix": "8f3e1092b5efb6bc54a6bd8229681cab42f7130410fe8bdfa1454ed2d8daf85b",
+        "sha256_in_prefix": "22eb6b523cf9372ddad96c98f9cb72b336ac1fbeced265f8efdea2bfcf40c7cb",
         "size_in_bytes": 11635
       },
       {
@@ -3023,7 +3023,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "4f74c9e9615f6178f462264f409ee63954d670625b0a0eb4456d278b733164e8",
-        "sha256_in_prefix": "7900e751ef985a617dc35cfd27ea742e9707fca74d90f0931493063e01b52c4b",
+        "sha256_in_prefix": "20afdce1e628e9ec40e261a0ee992e584d5f95c38af3c3222b7c513f7ee68542",
         "size_in_bytes": 6925
       },
       {
@@ -4334,7 +4334,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_da6qfnx8ca/croot/tk_1755243786242/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "c374abaef70d1d34579244869b0ae5afc10fce85f78d15eab01e9b95534c6ebb",
-        "sha256_in_prefix": "04ebfb3f05fd5200b35ef33e6b42baa865c686e22102dbf2cb041dc14dd5b280",
+        "sha256_in_prefix": "c5891bc32ab37277b074b22906c307006d7c0e52f328930a91ba2082385a1dc3",
         "size_in_bytes": 6081
       }
     ],

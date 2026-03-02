@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: 0BSD
 # Author: Lasse Collin
 
-prefix=/Users/madhavmanoj/Documents/ML Projects/mlproject/venv
+prefix=/Users/madhavmanoj/Documents/MACHINE LEARNING/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
