@@ -1,20 +1,29 @@
-# 🎓 Student Exam Performance Predictor
+# 🎓 Student Exam Performance Predictor (End-to-End ML Project)
 
-A Machine Learning web application that predicts a student's **Math Score** based on demographic and academic features.
+A production-ready **End-to-End Machine Learning Web Application** that predicts a student's **Math Score** based on demographic and academic features.
 
-Built using:
+🌐 **Live Demo:**  
+https://studentperfomancepredictor.onrender.com  
 
-- Python
-- Flask
-- Scikit-learn
-- Pandas
-- HTML & CSS
+> ⚠️ Note: Hosted on Render Free Tier. First load may take 30–60 seconds due to cold start.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Highlights
 
-This project predicts a student's **math score** using:
+✔ End-to-End ML Pipeline (Training → Prediction → Deployment)  
+✔ Modular Project Architecture  
+✔ Custom Exception Handling & Logging  
+✔ Preprocessing using ColumnTransformer  
+✔ Model Persistence using Pickle  
+✔ Web Deployment using Flask + Gunicorn  
+✔ Live Cloud Deployment (Render)
+
+---
+
+## 🧠 Problem Statement
+
+The objective of this project is to build a regression model that predicts a student's **Math Score** using:
 
 - Gender  
 - Race / Ethnicity  
@@ -24,7 +33,14 @@ This project predicts a student's **math score** using:
 - Reading Score  
 - Writing Score  
 
-The trained ML model is served through a Flask web application.
+---
+
+## 🏗️ System Architecture
+
+User Input → Flask App → DataFrame Creation →  
+Preprocessor (Encoding + Scaling) →  
+Trained Regression Model →  
+Predicted Math Score → Web UI
 
 ---
 
@@ -69,129 +85,62 @@ mlproject/
 
 ---
 
-## 🚀 Features
-
-✔ Clean web interface for prediction  
-✔ Predicts math score using trained regression model  
-✔ Proper preprocessing using ColumnTransformer  
-✔ Custom exception handling  
-✔ Modular ML pipeline structure  
-✔ Ready for deployment  
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Tech Stack
 
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/Maaddhhaav21/mlproject.git
-cd mlproject
-```
-
----
-
-### 2️⃣ Create Virtual Environment
-
-Mac/Linux:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-Windows:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
----
-
-### 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶ Run the Application
-
-```bash
-python app.py
-```
-
-Open your browser:
-
-```
-http://127.0.0.1:5000/
-```
-
----
-
-## 🧠 How It Works
-
-### 1️⃣ User Input
-
-User provides:
-
-- Gender
-- Ethnicity
-- Parental Education
-- Lunch Type
-- Test Preparation Course
-- Reading Score
-- Writing Score
-
----
-
-### 2️⃣ Data Processing
-
-- Form data converted into Pandas DataFrame
-- Categorical features encoded
-- Numerical features scaled
-- Preprocessor loaded from artifacts
-
----
-
-### 3️⃣ Prediction
-
-- Processed features passed into trained regression model
-- Model predicts Math Score
-- Result displayed in UI
+- Python  
+- Flask  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- HTML & CSS  
+- Gunicorn  
+- Render (Cloud Deployment)
 
 ---
 
 ## 📊 Machine Learning Details
 
-- Problem Type: Regression
-- Target Variable: Math Score
+- Problem Type: Regression  
+- Target Variable: Math Score  
 - Preprocessing:
-  - OneHotEncoder
-  - StandardScaler
+  - OneHotEncoder (Categorical features)
+  - StandardScaler (Numerical features)
   - ColumnTransformer
-- Model: RandomForestRegressor (or selected model)
+- Model: RandomForestRegressor (Best selected model)
 
 ---
 
-## 🔮 Future Improvements
+## 🔍 Workflow
 
-- Add model evaluation metrics to UI
-- Add data visualization
-- Add Docker support
-- Deploy to cloud (Render / AWS / GCP)
-- Add CI/CD pipeline
+### 1️⃣ Data Ingestion
+- Load dataset
+- Split into train/test
+
+### 2️⃣ Data Transformation
+- Handle categorical encoding
+- Scale numerical features
+- Save preprocessor object
+
+### 3️⃣ Model Training
+- Train regression models
+- Evaluate performance
+- Save best model
+
+### 4️⃣ Prediction Pipeline
+- Load saved model
+- Apply preprocessing
+- Predict math score
+
+### 5️⃣ Deployment
+- Flask application
+- Gunicorn production server
+- Deployed on Render cloud platform
 
 ---
 
 ## 👨‍💻 Author
 
 **Madhav Manoj**
-
----
-
-## 📜 License
-
-MIT License
